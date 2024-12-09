@@ -27,7 +27,7 @@ author:
   bio              : "Master's @ UIUC"
   location         : "Urbana, Illinois"
   employer         : "University of Illinois at Urbana-Champaign"
-  uri              : # URL
+  uri              : "sorend2@illinois.edu" 
   email            : "sorend2@illinois.edu" 
 
   # Academic websites
@@ -238,23 +238,23 @@ collections:
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
+  # # _pages
+  # - scope:
+  #     path: ""
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: true
   _teaching
   - scope:
       path: ""
