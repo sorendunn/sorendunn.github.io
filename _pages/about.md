@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Soren Dunn"
 permalink: /
 author_profile: true
 redirect_from: 
@@ -34,4 +33,4 @@ Publications
 
 - **[Preprint]** Chunqiu Steven Xia\*, Yinlin Deng\*, **Soren Dunn**, Lingming Zhang. *Agentless: Demystifying LLM-based Software Engineering Agents*, July, 2024 [[paper]](https://arxiv.org/pdf/2407.01489) [[code]](https://github.com/OpenAutoCoder/Agentless)
 
-- **[JACS'21]** Rational Construction of an Artificial Binuclear Copper Monooxygenase in a Metal-Organic Framework - Journal of the American Chemical Society – Xuanyu Feng, Yang Song, Justin Chen, Ziwan Xu, **Soren Dunn**, Wenbin Lin. *Rational Construction of an Artificial Binuclear Copper Monooxygenase in a Metal–Organic Framework*, January, 2021 [[paper]](https://pubs.acs.org/doi/full/10.1021/jacs.0c11920)
+- **[JACS'21]** Xuanyu Feng, Yang Song, Justin Chen, Ziwan Xu, **Soren Dunn**, Wenbin Lin. *Rational Construction of an Artificial Binuclear Copper Monooxygenase in a Metal–Organic Framework*, January, 2021 [[paper]](https://pubs.acs.org/doi/full/10.1021/jacs.0c11920)
