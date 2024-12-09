@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "About"
+title                    : "Welcome to Soren Dunn's Homepage"
 title_separator          : "-"
 name                     : &name "Soren Dunn"
 description              : &description "Hi, I'm Soren Dunn, a second-year master's student at UIUC supervised by Lingming Zhang"
@@ -27,7 +27,7 @@ author:
   bio              : "Master's @ UIUC"
   location         : "Urbana, Illinois"
   employer         : "University of Illinois at Urbana-Champaign"
-  uri              : "sorend2@illinois.edu" 
+  uri              : #"sorend2@illinois.edu" 
   email            : "sorend2@illinois.edu" 
 
   # Academic websites
@@ -75,13 +75,13 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+# publication_category:
+#   books:
+#     title: 'Books'
+#   manuscripts:
+#     title: 'Journal Articles'    
+#   conferences:
+#     title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -237,7 +237,7 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
-  _posts
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -255,7 +255,7 @@ defaults:
   #   values:
   #     layout: single
   #     author_profile: true
-  _teaching
+  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -264,7 +264,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  _publications
+  # _publications
   - scope:
       path: ""
       type: publications
