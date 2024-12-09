@@ -10,8 +10,8 @@
 locale                   : "en-US"
 title                    : "Soren Dunn"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Soren Dunn"
+description              : &description "Hi, I'm Soren Dunn, a second-year master's student at UIUC supervised by Lingming Zhang"
 url                      : https://sorendunn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sorendunn/sorendunn.github.io"
@@ -21,7 +21,7 @@ repository               : "sorendunn/sorendunn.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "files/profile.jpg"
   name             : "Soren Dunn"
   pronouns         : # example: "she/her"  
   bio              : "Master's @ UIUC"
@@ -212,21 +212,21 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  #teaching:
-  #  output: true
-  #  permalink: /:collection/:path/
+  teaching:
+   output: true
+   permalink: /:collection/:path/
   About:
     output: true
     permalink: /:collection/:path/
   Publications:
     output: true
     permalink: /:collection/:path/
-  CV:
+  Resumme:
     output: true
     permalink: /:collection/:path/
-  Blog Posts:
-    output: true
-    permalink: /:collection/:path/
+  # Blog Posts:
+  #   output: true
+  #   permalink: /:collection/:path/
   #portfolio:
   #  output: true
   #  permalink: /:collection/:path/
@@ -255,7 +255,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  _teaching
   - scope:
       path: ""
       type: teaching
@@ -264,7 +264,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  _publications
   - scope:
       path: ""
       type: publications
@@ -274,22 +274,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
+  # # _talks
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 
 # Sass/SCSS
