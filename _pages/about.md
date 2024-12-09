@@ -30,8 +30,8 @@ Education
 Publications
 =====
 
-- **[NeurIPS'24 Benchmark Track Oral]** Nikhil Khandekar*, Qiao Jin*, Guangzhi Xiong*, **Soren Dunn**, Serina S Applebaum, Zain Anwar, Maame Sarfo-Gyamfi, Conrad W Safranek, Abid Anwar, Andrew Jiaxing Zhang, Aidan Gilson, Maxwell B Singer, Amisha D Dave, R. Andrew Taylor, Aidong Zhang, Qingyu Chen, Zhiyong Lu. *MedCalc-Bench: Evaluating Large Language Models for Medical Calculations*, June, 2024 [[paper]](https://openreview.net/pdf?id=VXohja0vrQ) [[code]](https://github.com/ncbi-nlp/MedCalc-Bench) 
+- **[NeurIPS'24 Benchmark Track Oral]** Nikhil Khandekar\*, Qiao Jin\*, Guangzhi Xiong\*, **Soren Dunn**, Serina S Applebaum, Zain Anwar, Maame Sarfo-Gyamfi, Conrad W Safranek, Abid Anwar, Andrew Jiaxing Zhang, Aidan Gilson, Maxwell B Singer, Amisha D Dave, R. Andrew Taylor, Aidong Zhang, Qingyu Chen, Zhiyong Lu. *MedCalc-Bench: Evaluating Large Language Models for Medical Calculations*, June, 2024 [[paper]](https://openreview.net/pdf?id=VXohja0vrQ) [[code]](https://github.com/ncbi-nlp/MedCalc-Bench) 
 
-- **[Preprint]** Chunqiu Steven Xia*, Yinlin Deng*, **Soren Dunn**, Lingming Zhang. *Agentless: Demystifying LLM-based Software Engineering Agents*, July, 2024 [[paper]](https://arxiv.org/pdf/2407.01489) [[code]](https://github.com/OpenAutoCoder/Agentless)
+- **[Preprint]** Chunqiu Steven Xia\*, Yinlin Deng\*, **Soren Dunn**, Lingming Zhang. *Agentless: Demystifying LLM-based Software Engineering Agents*, July, 2024 [[paper]](https://arxiv.org/pdf/2407.01489) [[code]](https://github.com/OpenAutoCoder/Agentless)
 
 - **[JACS'21]** Rational Construction of an Artificial Binuclear Copper Monooxygenase in a Metal-Organic Framework - Journal of the American Chemical Society – Xuanyu Feng, Yang Song, Justin Chen, Ziwan Xu, **Soren Dunn**, Wenbin Lin. *Rational Construction of an Artificial Binuclear Copper Monooxygenase in a Metal–Organic Framework*, January, 2021 [[paper]](https://pubs.acs.org/doi/full/10.1021/jacs.0c11920)
