@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Soren Dunn"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Soren Dunn"
 description              : &description "Hi, I'm Soren Dunn, a second-year master's student at UIUC supervised by Lingming Zhang"
@@ -237,17 +237,17 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
-  # - scope:
-  #     path: ""
-  #     type: posts
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     read_time: true
-  #     comments: true
-  #     share: true
-  #     related: true
+  _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # # _pages
   # - scope:
   #     path: ""
