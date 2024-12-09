@@ -218,9 +218,9 @@ collections:
   About:
     output: true
     permalink: /:collection/:path/
-  # Publications:
-  #   output: true
-  #   permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
   # Resumme:
   #   output: true
   #   permalink: /:collection/:path/
