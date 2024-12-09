@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "about"
+title: "Soren Dunn"
 permalink: /
 author_profile: true
 redirect_from: 
@@ -16,19 +16,22 @@ My research goal is to improve both the benchmarks we use to evaluate model **re
 
 News
 =====
+- *Dec 2nd, 2024*: Integrated Agentless with Claude 3.5 Sonnet to achieve 40.7% solve rate on SWE-bench lite and 50.8% solve rate on SWE-bench verified
+- *Oct 28th, 2024*: Released OpenAutoCoder-Agentless 1.5 which increases Agentless performance from 27.3% to 32.00% on SWE-bench lite
+- *September 26, 2024*: MedCalc was accepted as an **oral presentation** for the NeurIPS 2024 Datasets and Benchmark Track
+- *September 12, 2024*: Agentess was used by OpenAI as their scaffold of choice for evalauting gpt-4o, o1-mini, and o1-preview's model autonomy as part of their preparedness framework
+- *July 1st, 2024*: Released OpenAutoCoder-Agentless 1.0! Agentless currently is the best open-source approach on SWE-bench lite with 82 fixes (27.3%) and costing on average $0.34 per issue.
 
 Education
 =====
-- . in Computer Science, School of Computer Science, Peking University, September 2018 - June 2023
-- B.E. in Computer Science, School of EECS, Peking University, September 2014 - June 2018
+- Data Science (B.S.) With Honors, Statistics (B.A.), Chemistry (B.A.), University of Chicago October 2019 - June 2023
+- Masters of Statistics, University of Illinois at Urbana-Champaign, August 2023 - June 2025
 
 Publications
 =====
-- **[S&P'24]** **Ziqi Zhang**, Chen Gong, Yuanyuan Yuan, Yifeng Cai, Bingyan Liu, Ding Li, Yao Guo, Xiangqun Chen. “No Privacy Left Outside: On the (In-)Security of TEE-Shielded DNN Partition Defenses”. (**CCF-A**) [[paper]](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a052/1RjEarlPFew) [[artifact]](https://github.com/ziqi-zhang/TEESlice-artifact) [[tool TAOISM]](https://github.com/ziqi-zhang/TAOISM) [[PPT]](files/TEESlice-SP-upload.pdf)
 
-- **[ICSE'23]** **Ziqi Zhang**, Yuanchun Li, Bingyan Liu, Yifeng Cai, Ding Li, Yao Guo, Xiangqun Chen. “FedSlice: Protecting Federated Learning Models from Malicious Participants with Model Slicing”. In Proceedings of International Conference on Software Engineering. (**CCF-A**, 209/796=26.2%) [[paper]](https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00049) [[code]](https://zenodo.org/records/7536375) [[PPT]](files/ICSE23-FedSlice-upload.pdf)
+- **[NeurIPS'24 Benchmark Track Oral]** Nikhil Khandekar*, Qiao Jin*, Guangzhi Xiong*, **Soren Dunn**, Serina S Applebaum, Zain Anwar, Maame Sarfo-Gyamfi, Conrad W Safranek, Abid Anwar, Andrew Jiaxing Zhang, Aidan Gilson, Maxwell B Singer, Amisha D Dave, R. Andrew Taylor, Aidong Zhang, Qingyu Chen, Zhiyong LuJune, 2024 [[paper]](https://openreview.net/pdf?id=VXohja0vrQ) [[code]](https://github.com/ncbi-nlp/MedCalc-Bench) 
 
-- **[ICSE'22]** **Ziqi Zhang**, Yuanchun Li, Jindong Wang, Bingyan Liu, Ding Li, Xiangqun Chen, Yao Guo, Yunxin Liu. “ReMoS: Reducing Defect Inheritance in Transfer Learning via Relevant Model Slicing”. In Proceedings of International Conference on Software Engineering. (**CCF-A**, 197/751≈26.2%) [[paper]](https://ieeexplore.ieee.org/document/9793881/) [[code]](https://github.com/PKU-ASAL/ReMoS_artifact) [[PPT]](files/ICSE22-ReMoS-upload.pdf)
+- **[Preprint]** Chunqiu Steven Xia*, Yinlin Deng*, **Soren Dunn**, Lingming Zhang. July, 2024 [[paper]](https://arxiv.org/abs/2407.01489) [[code]](https://github.com/OpenAutoCoder/Agentless)
 
-- **[ESEC/FSE'20]** **Ziqi Zhang**, Yuanchun Li, Yao Guo, Xiangqun Chen, Yunxin Liu. “Dynamic Slicing for Deep Neural Networks.” In Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. (**CCF-A**, 101/360≈28.0%) [[paper]](https://dl.acm.org/doi/10.1145/3368089.3409676) [[code]](https://dl.acm.org/do/10.5281/zenodo.3901405/full/) [[PPT]](files/FES20-NNSlicer-upload.pdf)
-
+- **[JACS'21]** Rational Construction of an Artificial Binuclear Copper Monooxygenase in a Metal-Organic Framework - Journal of the American Chemical Society – Xuanyu Feng, Yang Song, Justin Chen, Ziwan Xu, **Soren Dunn**, Wenbin Lin. January, 2021 [[paper]](https://pubs.acs.org/doi/full/10.1021/jacs.0c11920)
