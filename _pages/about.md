@@ -15,7 +15,7 @@ My research goal is to improve both the benchmarks we use to evaluate model **re
 
 News
 =====
-- *February 26th, 2025*: Agentless Lite **doubles the state-of-the-art** on SWE-bench Multimodal from 12.19% to 25.34% for 1/4th of the cost without even requiring a runtime environment!
+- *February 26th, 2025*: Agentless Lite <ins>doubles state-of-the-art</ins> on SWE-bench Multimodal from 12.19% to 25.34% for 1/4th of the cost without even requiring a runtime environment!
 - *February 14th, 2025*: I released [Agentless Lite](https://github.com/sorendunn/Agentless-Lite) - a generalized, lightweight adaptation of the Agentless scaffold which is competitive with SOTA agents while only requiring sampling from a single RAG prompt.
 - *January 31st, 2025*: Agentless used by both DeepSeek and OpenAI to evaluate their new reasoning models (r1 and o3-mini) on SWE-bench
 - *Dec 2nd, 2024*: Integrated Agentless with <ins>Claude 3.5 Sonnet</ins> to achieve 40.7% solve rate on SWE-bench lite and 50.8% solve rate on SWE-bench verified
