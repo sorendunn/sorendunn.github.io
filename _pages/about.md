@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-Hi, I'm Soren Dunn. I'm a Founding Engineer at Intology AI. I was previously a master's student at the *University of Illinois at Urbana-Champaign*, supervised by Professor [Lingming Zhang](https://lingming.cs.illinois.edu/index.html). I received my bachelor's, triple majoring in Data Science, Statistics, and Chemistry from the *University of Chicago* in 2023.
+Hi, I'm Soren Dunn. I'm a Founding Engineer at [Intology AI](https://www.intology.ai). I was previously a master's student at the *University of Illinois at Urbana-Champaign*, supervised by Professor [Lingming Zhang](https://lingming.cs.illinois.edu/index.html). I received my bachelor's, triple majoring in Data Science, Statistics, and Chemistry from the *University of Chicago* in 2023.
+
+I am interested in pushing the frontiers of speeding up technological progress and scientific discovery using AI. Along the way, I have contributed to frameworks for evaluating LLM's SWE capabilities and work in automating scientific discovery.
 
 Contact
 =====
