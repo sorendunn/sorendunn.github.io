@@ -22,8 +22,8 @@ Contact
 
 News
 =====
-- *May 27th, 2025*: Intology's artifical scientist Zochi published in ACL 2025, “Tempest: Automatic Multi-Turn Jailbreaking of Large Language Models with Tree Search” - the first fully autonomous publication in a top scientific venue by an AI system.
-- *March 14th, 2025*: Along with Intology AI, I debuted Zochi, an artificial scientist which produced papers averaging 7.67/10 on NeurIPS guidelines, 3 of which were accepted to ICLR 2025 workshops.
+- *May 27th, 2025*: Intology's artifical scientist Zochi published in ACL 2025, “Tempest: Automatic Multi-Turn Jailbreaking of Large Language Models with Tree Search” - the first [fully autonomous publication](https://www.intology.ai/blog/zochi-acl) in a top scientific venue by an AI system.
+- *March 14th, 2025*: Along with Intology AI, I debuted Zochi, an artificial scientist which produced papers averaging 7.67/10 on NeurIPS guidelines, 3 of which were accepted to [ICLR 2025 workshops](https://www.intology.ai/blog/zochi-tech-report).
 - *February 26th, 2025*: Agentless Lite <ins>doubles state-of-the-art</ins> on SWE-bench Multimodal from 12.19% to 25.34% for 1/4th of the cost without even requiring a runtime environment!
 - *February 14th, 2025*: I released [Agentless Lite](https://github.com/sorendunn/Agentless-Lite) - a generalized, lightweight adaptation of the Agentless scaffold which is competitive with SOTA agents while only requiring sampling from a single RAG prompt.
 - *January 31st, 2025*: Agentless used by both DeepSeek and OpenAI to evaluate their new reasoning models (r1 and o3-mini) on SWE-bench
