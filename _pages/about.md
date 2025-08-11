@@ -9,9 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Hi, I'm Soren Dunn. I'm currently a second-year master's student at the *University of Illinois at Urbana-Champaign* supervised by Professor [Lingming Zhang](https://lingming.cs.illinois.edu/index.html). I received my bachelor's triple majoring in Data Science, Statistics, and Chemistry from the *University of Chicago* in 2023. 
+Hi, I'm Soren Dunn. I'm a Founding Engineer at Intology AI. I was previously a master's student at the *University of Illinois at Urbana-Champaign*, supervised by Professor [Lingming Zhang](https://lingming.cs.illinois.edu/index.html). I received my bachelor's, triple majoring in Data Science, Statistics, and Chemistry from the *University of Chicago* in 2023.
 
-My research goal is to improve both the benchmarks we use to evaluate model **reasoning** along with the rigor of the approaches which we use to evaluate models on them in order to hone current efforts to build model systems capable of real-world problem solving. I am particularly focused on conducting reasoning evaluations for language models in the **coding domain**.
+Contact
+=====
+- Email: [soren@illinois.edu](mailto:soren@illinois.edu)
+- GitHub: [@sorendunn](https://github.com/sorendunn)
+- Twitter: [@soren_dunn_](https://twitter.com/soren_dunn_)
+- CV: [Resume](https://drive.google.com/file/d/1vkVBOFYVau3r3tdOwhPvnSWvygM0-r_w/view?usp=sharing)
 
 News
 =====
@@ -29,11 +34,17 @@ Education
 - Data Science (B.S.) with Honors, Statistics (B.A.), Chemistry (B.A.), University of Chicago October 2019 - June 2023
 - Masters of Statistics, University of Illinois at Urbana-Champaign, August 2023 - June 2025
 
+Experience
+=====
+- Intology AI, Founding Engineer, San Francisco, CA, January 2025 - Present
+  - Developed experimentation, ideation, paper-writing capabilities, and user interface for Zochi, the first AI system to publish a paper in a top scientific venue (ACL 2025) with reviews placing it in the top 8.2% of all ACL submissions as well as publishing three papers in ICLR 2025 workshops
+  - Configured Zochi to run on MLE-bench, reaching SOTA on a canonical subset of MLE-Bench achieving medals in 50% of Kaggle competitions it was tested on
+  
 Publications
 =====
 
-- **[NeurIPS 2024 Benchmark Track Oral]** Nikhil Khandekar\*, Qiao Jin\*, Guangzhi Xiong\*, **Soren Dunn**, Serina S Applebaum, Zain Anwar, Maame Sarfo-Gyamfi, Conrad W Safranek, Abid Anwar, Andrew Jiaxing Zhang, Aidan Gilson, Maxwell B Singer, Amisha D Dave, R. Andrew Taylor, Aidong Zhang, Qingyu Chen, Zhiyong Lu. *MedCalc-Bench: Evaluating Large Language Models for Medical Calculations*, June, 2024 [[paper]](https://openreview.net/pdf?id=VXohja0vrQ) [[code]](https://github.com/ncbi-nlp/MedCalc-Bench) 
+- **[FSE 2025 Distinguished Paper]** Chunqiu Steven Xia\*, Yinlin Deng\*, **Soren Dunn**, Lingming Zhang. *Agentless: Demystifying LLM-based Software Engineering Agents*, July, 2024 [[paper]](https://arxiv.org/pdf/2407.01489) [[code]](https://github.com/OpenAutoCoder/Agentless)
 
-- **[Preprint]** Chunqiu Steven Xia\*, Yinlin Deng\*, **Soren Dunn**, Lingming Zhang. *Agentless: Demystifying LLM-based Software Engineering Agents*, July, 2024 [[paper]](https://arxiv.org/pdf/2407.01489) [[code]](https://github.com/OpenAutoCoder/Agentless)
+- **[NeurIPS 2024 Datasets and Benchmark Track Oral]** Nikhil Khandekar\*, Qiao Jin\*, Guangzhi Xiong\*, **Soren Dunn**, Serina S Applebaum, Zain Anwar, Maame Sarfo-Gyamfi, Conrad W Safranek, Abid Anwar, Andrew Jiaxing Zhang, Aidan Gilson, Maxwell B Singer, Amisha D Dave, R. Andrew Taylor, Aidong Zhang, Qingyu Chen, Zhiyong Lu. *MedCalc-Bench: Evaluating Large Language Models for Medical Calculations*, June, 2024 [[paper]](https://openreview.net/pdf?id=VXohja0vrQ) [[code]](https://github.com/ncbi-nlp/MedCalc-Bench) 
 
 - **[Journal of the American Chemical Society]** Xuanyu Feng, Yang Song, Justin Chen, Ziwan Xu, **Soren Dunn**, Wenbin Lin. *Rational Construction of an Artificial Binuclear Copper Monooxygenase in a Metal–Organic Framework*, January, 2021 [[paper]](https://pubs.acs.org/doi/full/10.1021/jacs.0c11920)
