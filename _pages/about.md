@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hi, I'm Soren Dunn. I'm a Founding Engineer at [Intology AI](https://www.intology.ai). I was previously a master's student at the *University of Illinois at Urbana-Champaign*, supervised by Professor [Lingming Zhang](https://lingming.cs.illinois.edu/index.html). I received my bachelor's, triple majoring in Data Science, Statistics, and Chemistry from the *University of Chicago* in 2023.
+Hi, I'm Soren Dunn. I'm a Founding Member of Technical Staff at [Intology AI](https://www.intology.ai). I was previously a master's student at the *University of Illinois at Urbana-Champaign*, supervised by Professor [Lingming Zhang](https://lingming.cs.illinois.edu/index.html). I received my bachelor's, triple majoring in Data Science, Statistics, and Chemistry from the *University of Chicago*.
 
 I am interested in pushing the frontiers of speeding up technological progress and scientific discovery using AI. Along the way, I have contributed to frameworks for evaluating LLM's SWE capabilities and work in automating scientific discovery.
 
@@ -22,6 +22,8 @@ Contact
 
 News
 =====
+- *May 19th, 2026*: Led the release of [NanoGPT-Bench](https://www.intology.ai/blog/nanogpt-bench), an autonomous AI R&D benchmark built on the NanoGPT Speedrun. Frontier coding agents (Claude Code, Codex, Autoresearch) given a 512 H100-hour budget recover <ins>less than 10%</ins> of 5 months of human world-record progress (top baseline 9.3%), spending the majority of their compute on hyperparameter tuning rather than the algorithmic research that drives 75.8% of human records.
+- *November 19th, 2025*: Intology previewed [Locus](https://www.intology.ai/blog/previewing-locus), the first AI system to outperform human experts at AI R&D - matching/beating METR's human expert baseline on RE-Bench (1.30 vs 1.27 over a continuous 64-hour run), setting SOTA on MLE-Bench Lite (medals in <ins>77% of competitions</ins> vs prior 68%), and achieving SOTA on KernelBench
 - *May 27th, 2025*: Intology's artifical scientist Zochi published in ACL 2025, “Tempest: Automatic Multi-Turn Jailbreaking of Large Language Models with Tree Search” - the first [fully autonomous publication](https://www.intology.ai/blog/zochi-acl) in a top scientific venue by an AI system.
 - *March 14th, 2025*: Along with Intology AI, I debuted Zochi, an artificial scientist which produced papers averaging 7.67/10 on NeurIPS guidelines, 3 of which were accepted to [ICLR 2025 workshops](https://www.intology.ai/blog/zochi-tech-report).
 - *February 26th, 2025*: Agentless Lite <ins>doubles state-of-the-art</ins> on SWE-bench Multimodal from 12.19% to 25.34% for 1/4th of the cost without even requiring a runtime environment!
@@ -40,7 +42,8 @@ Education
 
 Experience
 =====
-- Intology AI, Founding Engineer, San Francisco, CA, January 2025 - Present
+- Intology AI, Founding Member of Technical Staff, San Francisco, CA, January 2025 - Present
+  - Led development of [NanoGPT-Bench](https://www.intology.ai/blog/nanogpt-bench), a long-horizon autonomous AI R&D benchmark built on the NanoGPT Speedrun, showing that frontier coding agents recover only 9.3% of human research progress on NanoGPT and almost exclusively perform hyperparameter tuning rather than algorithmic research
   - Developed experimentation, ideation, paper-writing capabilities, and user interface for Zochi, the first AI system to publish a paper in a top scientific venue (ACL 2025) with reviews placing it in the top 8.2% of all ACL submissions as well as publishing three papers in ICLR 2025 workshops
   - Configured Zochi to run on MLE-bench, reaching SOTA on a canonical subset of MLE-Bench achieving medals in 50% of Kaggle competitions it was tested on
   
