@@ -24,9 +24,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Soren Dunn"
   pronouns         : # example: "she/her"  
-  bio              : "Founding MTS @ Intology AI"
+  bio              : "Founding MTS @ Intology"
   location         : "San Francisco, California"
-  employer         : "Intology AI"
+  employer         : "Intology"
   uri              : #"soren@intology.ai" 
   email            : "soren@intology.ai" 
 
