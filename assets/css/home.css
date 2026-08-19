@@ -161,8 +161,7 @@ section h2 {
 
 section#news h2,
 section#technical-reports h2,
-section#publications h2,
-section#resume h2 {
+section#publications h2 {
   font-family: var(--font-heading);
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -176,8 +175,7 @@ section#news h2 {
 }
 
 section#publications h2,
-section#technical-reports h2,
-section#resume h2 {
+section#technical-reports h2 {
   font-size: 1.35rem;
   margin: 0 0 1rem;
 }
@@ -205,10 +203,6 @@ section#resume h2 {
 .section-link:hover {
   color: var(--fg);
   text-decoration: underline;
-}
-
-section#resume h2 {
-  margin: 0 0 0.65rem;
 }
 
 .news-list {
@@ -464,15 +458,6 @@ section#resume h2 {
 .pubs .dot {
   margin: 0 0.35rem;
   color: #bbb;
-}
-
-.resume-link {
-  margin: 0;
-  font-size: 0.98rem;
-}
-
-.resume-link a {
-  color: var(--fg);
 }
 
 @media (max-width: 640px) {

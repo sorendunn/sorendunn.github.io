@@ -185,8 +185,3 @@ redirect_from:
     </li>
   </ul>
 </section>
-
-<section id="resume">
-  <h2>Resume</h2>
-  <p class="resume-link"><a href="https://drive.google.com/file/d/1vkVBOFYVau3r3tdOwhPvnSWvygM0-r_w/view?usp=sharing">link</a></p>
-</section>
