@@ -160,6 +160,7 @@ section h2 {
 }
 
 section#news h2,
+section#technical-reports h2,
 section#publications h2,
 section#resume h2 {
   font-family: var(--font-heading);
@@ -175,9 +176,35 @@ section#news h2 {
 }
 
 section#publications h2,
+section#technical-reports h2,
 section#resume h2 {
   font-size: 1.35rem;
   margin: 0 0 1rem;
+}
+
+.section-heading-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-heading-row h2 {
+  margin-bottom: 0 !important;
+}
+
+.section-link {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.section-link:hover {
+  color: var(--fg);
+  text-decoration: underline;
 }
 
 section#resume h2 {
@@ -245,6 +272,135 @@ section#resume h2 {
   display: flex;
   flex-direction: column;
   gap: 1.35rem;
+}
+
+.technical-projects {
+  counter-reset: technical-projects;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.technical-project {
+  counter-increment: technical-projects;
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.technical-project:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.technical-project::before {
+  content: "0" counter(technical-projects);
+  padding-top: 0.35rem;
+  color: #aaa;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+}
+
+.technical-project-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.15rem;
+}
+
+.technical-project-head h3 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+.technical-project-kind,
+.technical-project-period,
+.technical-detail-label {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.technical-project-kind {
+  margin: 0 0 0.3rem;
+}
+
+.technical-project-period {
+  flex: none;
+  margin: 0;
+  padding-top: 0.35rem;
+}
+
+.technical-project-summary {
+  margin: 0 0 1.35rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.technical-project-detail {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.technical-detail-label {
+  margin: 0;
+}
+
+.technical-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.technical-results li {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.technical-results li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--fg);
+}
+
+.technical-project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.78rem;
+}
+
+.technical-project-links a {
+  color: var(--muted);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.technical-project-links a::after {
+  content: " ↗";
+}
+
+.technical-project-links a:hover {
+  color: var(--fg);
+  text-decoration: underline;
 }
 
 .pubs .pub-title {
@@ -323,6 +479,20 @@ section#resume h2 {
   .news-list li {
     grid-template-columns: 1fr;
     gap: 0.25rem;
+  }
+  .section-heading-row {
+    align-items: flex-start;
+  }
+  .technical-project {
+    grid-template-columns: 1.5rem minmax(0, 1fr);
+    gap: 0.65rem;
+  }
+  .technical-project-head h3 {
+    font-size: 1.7rem;
+  }
+  .technical-project-detail {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
   }
   .identity .avatar,
   .identity .avatar img {
