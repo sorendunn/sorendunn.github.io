@@ -42,12 +42,12 @@ redirect_from:
       <article>
         <header class="technical-project-head">
           <div>
-            <p class="technical-project-kind">Artificial Scientist for AI R&amp;D</p>
-            <h3>Locus</h3>
+            <p class="technical-project-kind">Automated model post-training</p>
+            <h3>Scaling Automated Post-Training</h3>
           </div>
-          <p class="technical-project-period">2025 —</p>
+          <p class="technical-project-period">August 2026</p>
         </header>
-        <p class="technical-project-summary">Zochi's successor, Locus, is a long-horizon research system that plans and steers many experiments in parallel over multi-day horizons. It leads PostTrainBench, and under PostTrainBench+ surpasses the official Qwen3-1.7B-Instruct checkpoint across the benchmark suite. Locus has also post-trained a model deployed in production.</p>
+        <p class="technical-project-summary">Locus plans and steers many post-training experiments in parallel over multi-day horizons. It leads PostTrainBench, and with additional compute surpasses the official Qwen3-1.7B-Instruct checkpoint across the PostTrainBench+ suite. Locus has also post-trained a model deployed in production.</p>
         <div class="technical-project-detail">
           <p class="technical-detail-label">Selected results</p>
           <ul class="technical-results">
@@ -57,7 +57,7 @@ redirect_from:
           </ul>
         </div>
         <ul class="technical-project-links">
-          <li><a href="https://www.intology.ai/blog/scaling-automated-post-training">Post-training results</a></li>
+          <li><a href="https://www.intology.ai/blog/scaling-automated-post-training">Technical report</a></li>
           <li><a href="https://www.intology.ai/blog/previewing-locus">Earlier preview</a></li>
           <li><a href="https://github.com/KellerJordan/modded-nanogpt/pull/199">Speedrun record</a></li>
         </ul>
@@ -67,18 +67,66 @@ redirect_from:
       <article>
         <header class="technical-project-head">
           <div>
-            <p class="technical-project-kind">The first Artificial Scientist</p>
-            <h3>Zochi</h3>
+            <p class="technical-project-kind">Measuring real research ability</p>
+            <h3>NanoGPT-Bench</h3>
           </div>
-          <p class="technical-project-period">2025</p>
+          <p class="technical-project-period">May 2026</p>
         </header>
-        <p class="technical-project-summary">Zochi takes a research question from literature review through experimentation to a written paper. Its paper Tempest was accepted to the main proceedings of ACL 2025 — the first fully AI-generated discovery to clear peer review at an A*-ranked venue, scoring in the top 8.2% of submissions by meta-review score.</p>
+        <p class="technical-project-summary">Benchmarks for research agents are easy to saturate and easy to contaminate. NanoGPT-Bench drops agents into the GPT-2 pretraining speedrun at a fixed human world record and asks them to make it faster, with no internet and no human help. Frontier coding agents recover less than 10% of what the human community achieved over the following five months, spending most of their compute on hyperparameter tuning instead of the algorithmic work that actually moves the record.</p>
         <div class="technical-project-detail">
           <p class="technical-detail-label">Selected results</p>
           <ul class="technical-results">
-            <li>ACL 2025 main proceedings</li>
-            <li>Top 8.2% of submissions</li>
-            <li>Peer-reviewed papers at multiple ICLR 2025 workshops</li>
+            <li>9.3% of human progress recovered, at best</li>
+            <li>512 H100-hours per agent</li>
+          </ul>
+        </div>
+        <ul class="technical-project-links">
+          <li><a href="https://www.intology.ai/blog/nanogpt-bench">Write-up</a></li>
+          <li><a href="https://github.com/IntologyAI/NanoGPT-Bench">Code</a></li>
+        </ul>
+      </article>
+    </li>
+    <li class="technical-project">
+      <article>
+        <header class="technical-project-head">
+          <div>
+            <p class="technical-project-kind">Artificial Scientist for AI R&amp;D</p>
+            <h3>Previewing Locus</h3>
+          </div>
+          <p class="technical-project-period">November 2025</p>
+        </header>
+        <p class="technical-project-summary">Introducing Zochi's successor: a long-horizon research system that autonomously plans, executes, and learns from experiments over continuous multi-day runs. The initial Locus release matched or exceeded expert-human performance on RE-Bench and established new state of the art results across several AI R&amp;D evaluations.</p>
+        <div class="technical-project-detail">
+          <p class="technical-detail-label">Selected results</p>
+          <ul class="technical-results">
+            <li>1.30 on RE-Bench, above the 1.27 human-expert baseline</li>
+            <li>Medals in 77% of MLE-Bench Lite competitions</li>
+            <li>State of the art on KernelBench</li>
+          </ul>
+        </div>
+        <ul class="technical-project-links">
+          <li><a href="https://www.intology.ai/blog/previewing-locus">Announcement</a></li>
+          <li><a href="https://www.intology.ai/blog/scaling-automated-post-training">Latest results</a></li>
+          <li><a href="https://metr.org/blog/2024-11-22-evaluating-r-d-capabilities-of-llms/">RE-Bench</a></li>
+        </ul>
+      </article>
+    </li>
+    <li class="technical-project">
+      <article>
+        <header class="technical-project-head">
+          <div>
+            <p class="technical-project-kind">AI-generated discovery at a top venue</p>
+            <h3>Zochi at ACL 2025</h3>
+          </div>
+          <p class="technical-project-period">May 2025</p>
+        </header>
+        <p class="technical-project-summary">Zochi's paper Tempest was accepted to the main proceedings of ACL 2025 — the first fully AI-generated discovery to clear peer review at an A*-ranked scientific venue. Zochi independently developed the method, implemented it, ran the experiments, and wrote the paper, excluding figures and minor formatting fixes.</p>
+        <div class="technical-project-detail">
+          <p class="technical-detail-label">Selected results</p>
+          <ul class="technical-results">
+            <li>Accepted to the ACL 2025 main proceedings</li>
+            <li>Top 8.2% of submissions by meta-review score</li>
+            <li>97% attack success rate on GPT-4</li>
           </ul>
         </div>
         <ul class="technical-project-links">
@@ -92,22 +140,25 @@ redirect_from:
       <article>
         <header class="technical-project-head">
           <div>
-            <p class="technical-project-kind">Measuring real research ability</p>
-            <h3>NanoGPT-Bench</h3>
+            <p class="technical-project-kind">The first Artificial Scientist</p>
+            <h3>The Zochi Technical Report</h3>
           </div>
-          <p class="technical-project-period">2026</p>
+          <p class="technical-project-period">March 2025</p>
         </header>
-        <p class="technical-project-summary">Benchmarks for research agents are easy to saturate and easy to contaminate. NanoGPT-Bench drops agents into the GPT-2 pretraining speedrun at a fixed human world record and asks them to make it faster, with no internet and no human help. Frontier coding agents recover less than 10% of what the human community achieved over the following five months, spending most of their compute on hyperparameter tuning instead of the algorithmic work that actually moves the record.</p>
+        <p class="technical-project-summary">Zochi takes a research question from literature review through experimentation to a written paper. The technical report describes the end-to-end system and its first autonomous research results, including multiple papers accepted to ICLR 2025 workshops.</p>
         <div class="technical-project-detail">
           <p class="technical-detail-label">Selected results</p>
           <ul class="technical-results">
-            <li>9.3% of human progress recovered, at best</li>
-            <li>512 H100-hours per agent</li>
+            <li>Three papers accepted to ICLR 2025 workshops</li>
+            <li>7.67/10 average score under NeurIPS review guidelines</li>
+            <li>End-to-end literature review, ideation, experimentation, and writing</li>
           </ul>
         </div>
         <ul class="technical-project-links">
-          <li><a href="https://www.intology.ai/blog/nanogpt-bench">Write-up</a></li>
-          <li><a href="https://github.com/IntologyAI/NanoGPT-Bench">Code</a></li>
+          <li><a href="https://www.intology.ai/blog/zochi-tech-report">Technical report</a></li>
+          <li><a href="https://github.com/IntologyAI/Zochi/blob/main/Zochi_Technical_Report.pdf">PDF</a></li>
+          <li><a href="https://github.com/IntologyAI/Zochi">Code</a></li>
+          <li><a href="https://www.intology.ai/blog/zochi-acl">ACL follow-up</a></li>
         </ul>
       </article>
     </li>
