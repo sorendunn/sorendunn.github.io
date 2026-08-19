@@ -169,15 +169,11 @@ section#publications h2 {
   color: var(--fg);
 }
 
-section#news h2 {
-  font-size: 1.55rem;
-  margin: 0 0 0.65rem;
-}
-
-section#publications h2,
-section#technical-reports h2 {
-  font-size: 1.35rem;
-  margin: 0 0 1rem;
+section#news h2,
+section#technical-reports h2,
+section#publications h2 {
+  font-size: 1.75rem;
+  margin: 0 0 0.85rem;
 }
 
 .section-heading-row {
