@@ -303,7 +303,7 @@ section#publications h2 {
 .technical-project-head h3 {
   margin: 0;
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 1.55rem;
   font-weight: 600;
   line-height: 1.1;
   letter-spacing: -0.025em;
@@ -469,7 +469,7 @@ section#publications h2 {
     gap: 0.65rem;
   }
   .technical-project-head h3 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
   .technical-project-detail {
     grid-template-columns: 1fr;
